@@ -1,0 +1,33 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: #fff;
+  color: #070707;
+}
+
+*:focus {
+  outline: 2px dotted #00bfff;
+  outline-offset: 1px;
+}
+
+/* CONTAINER */
+.contaner {
+  width: 100%;
+  min-width: 945px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
