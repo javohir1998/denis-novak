@@ -167,12 +167,14 @@ img {
 .skills-info {
 }
 .skills-title {
+  padding-bottom: 40px;
   font-size: 34px;
   line-height: 42px;
   text-align: center;
   color: #070707;
 }
 .skills-text {
+  padding-bottom: 50px;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
@@ -185,6 +187,8 @@ img {
 }
 
 .skills-item {
+  text-align: center;
+  list-style: none;
 }
 
 .skills-img {
@@ -198,7 +202,10 @@ img {
 }
 
 .skills-name {
-
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
 }
 
 .skills-level {
