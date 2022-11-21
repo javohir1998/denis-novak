@@ -142,18 +142,22 @@ img {
 }
 
 .author-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
 }
 
 .author-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  list-style: none;
 }
 
-.author-item {
+.author-item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 
@@ -163,14 +167,39 @@ img {
 .skills-info {
 }
 .skills-title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
 }
 .skills-text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
 }
 .skills-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .skills-item {
 }
+
 .skills-img {
+  width: 89px;
+  height: 89px;
 }
+
+.skills-img-figma {
+  width: 58px;
+  height: 89px;
+}
+
+.skills-name {
+
+}
+
 .skills-level {
 }
